@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { ListaProduto } from "../components/ListaProdutos";
 import style from "./Produtos.module.css";
 import {AiTwotoneEdit as Editar} from "react-icons/ai";
-import{MdDeleteForever as Excluir} from "react-icons/md";
+import {MdDeleteForever as Excluir} from "react-icons/md";
 
 export default function Produtos() {
   document.title = "Lista de Produtos";
