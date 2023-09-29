@@ -19,6 +19,13 @@
                 text-align: center;
             }
 
+            &:nth-last-child(2),
+            &:nth-last-child(3),
+            &:nth-last-child(5),
+            &:last-child {
+                text-align: center;
+            }
+
             &:last-child{
                 text-align: center;
             }
