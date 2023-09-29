@@ -18,6 +18,7 @@ export default function Produtos() {
             <th>DESCRIÇÃO</th>
             <th>PREÇO</th>
             <th>EDITAR</th>
+            <th>EXCLUIR</th>
           </tr>
         </thead>
 
@@ -29,12 +30,13 @@ export default function Produtos() {
               <td>{item.desc}</td>
               <td>{item.preco}</td>
               <td><Link to={`/editar/produtos/${item.id}`}><Editar/></Link></td>
+              <td><Link to={`/excluir/produtos${item.id}`}><Editar/></Link></td>
             </tr>
           ))}
         </tbody>
         <tfoot>
           <tr>
-            <td colSpan={5}>
+            <td colSpan={6}>
               PRODUTOS INFORMÁTICOS - QTD = {ListaProduto.length}
             </td>
           </tr>
