@@ -29,6 +29,12 @@
             &:last-child{
                 text-align: center;
             }
+            & a{
+                color: black;
+                &:hover{
+                    color: white;
+                }
+            }
         }   
     }
 
